@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-22T21:19:58.697Z",
+        "line": 4,
+        "name": "Scenario for TES-2",
+        "description": "",
+        "id": "another-test-feature;scenario-for-tes-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 792800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have the number 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.i_have_the_number(Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I also have the number 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.i_also_have_the_number(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I multiply 5 with 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                },
+                {
+                  "val": "7",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.i_multiply_with(Integer,Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get 35",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDefinitions.i_should_get(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          }
+        ]
+      }
+    ],
+    "name": "Another test feature",
+    "description": "",
+    "id": "another-test-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/bachelorthesis.testdata/second-feature.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

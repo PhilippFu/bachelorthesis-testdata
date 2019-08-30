@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: bachelorthesis.testdata.RunFirstFeatureTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.424 sec <<< FAILURE!
+Failing scenario for TES-1(A test feature)  Time elapsed: 0.019 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: You got 35
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at bachelorthesis.testdata.StepDefinitions.i_should_get(StepDefinitions.java:48)
+	at ?.I get 40(file:src/test/resources/bachelorthesis.testdata/first-feature.feature:14)
+
